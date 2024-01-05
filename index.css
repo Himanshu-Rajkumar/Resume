@@ -1,0 +1,505 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Navbar start */
+#navBar{
+    
+    
+    padding: 30px;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #de2323;
+}
+#navBar a{
+    /* margin-left: 40px; */
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    
+}
+#navBar h1{
+  margin-right: 500px;
+  color: white;
+    
+}
+/* Navbar end */
+
+/* Css of button */
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+/* Css of button ends */
+
+
+/* Home section start */
+#Home{
+    height: 700px;
+    width: 100%;
+    
+    background-image: url(/bodyimg.jpg);
+    display: flex;
+    
+
+}
+#Home-content {
+ margin-top: 300px;
+ margin-left: 10%;
+ color: white;
+
+    
+
+    
+}
+#Home-content h1{
+    font-size: 50px;
+
+}
+ #image img{
+    height: 400px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 70% ;
+
+}
+#Home-content img{
+     height: 30px;
+}
+
+/* Home section end */
+
+/* About section start */
+
+
+#About{
+    height: 700px;
+    width: 100%;
+    border: 2px solid rgb(11, 2, 2);
+}
+#About h1{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: -90px;
+   
+
+}
+
+#About-content{
+    height: 90%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#About-content .About-image{
+    height: 400px;
+    width: 30%;
+    /* border: 2px solid red; */
+    
+    
+
+    
+}
+.About-image img{
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+}
+#About-content .About-text{
+    height: 60%;
+    width: 40%;
+    /* border: 2px solid red; */
+   margin-top: 30px;
+   
+    
+}
+.About-text> h2{
+    margin-top: 80px;
+}
+.About-text> p{
+    margin-top: 10px;
+    
+    
+}
+
+/* About section end */
+/* Skills section start */
+
+#Skills{
+    height: 400px;
+    width: 100%;
+    border: 2px solid rgb(11, 2, 2);
+    background-color: black;
+   
+ 
+
+}
+
+
+   
+
+#Skills .Skills-content{
+   height: 55%;
+   width: 20%;
+   border:  2px solid rgb(11, 2, 2);
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 40%;
+   background-color: #FFFFFF;
+   padding-bottom: 20px;
+   cursor: pointer;
+   transition: background-color 0.4s ease;
+  
+    
+
+}
+#Skills h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #FFFFFF;
+    
+}
+.line::after{
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 4px solid rgb(243, 41, 41);
+    margin-bottom: 10px;
+    margin-left: 45%;
+    
+}
+
+
+.Skills-content img{
+    height: 70px;
+    margin-bottom: -5px;
+    
+}
+
+
+
+#Skills .Skills-content:hover{
+    background-color:  rgb(12, 54, 88);
+    color: #FFFFFF;
+    
+
+}
+
+/* Skills section end */
+
+/* Techstack section */
+
+#Techstack{
+    height: 200px;
+    width: 100%;
+    
+
+
+}
+#Techstack h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#parent{
+    padding: 20px;
+   
+    display: flex;justify-content: space-around;
+   
+}
+
+.Techstack-Container img{
+    height: 100px;
+    
+}
+.Techstack-Container h2{
+    text-align: center;
+    
+}
+#Tools{
+    height: 400px;
+    width: 100%;
+   
+
+
+}
+
+#Tools h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#parent-2{
+    padding: 20px;
+    
+    display: flex;justify-content: space-evenly;
+   
+}
+/* Techstack section end */
+
+/* Project section start */
+#Project{
+    height: 850px;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    
+}
+#Project h1{
+    text-align: center;
+   padding-top: 30px;
+    
+    
+}
+
+.Project-Content{
+    height: 90%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+    
+}
+
+.Project-Content>div{
+    height: 600px;
+    width: 30%;
+    /* border: 2px solid green; */
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    background-color: rgb(53 51 51);
+   
+    
+}
+.Project-Content>div>img{
+   height: 40%;
+   width: 98%;
+   border-radius: 10px;
+   border: 2px solid #de2323;
+   margin-top: 5px;
+   
+    
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.button-24 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.Project-Content>div:hover{
+    background-color: #de2323;
+}
+
+/* Project section end */
+/* Day's Code section start */
+
+#git{
+    height: 700px;
+    /* border: 2px solid black; */
+
+}
+#git img{
+    height: 250px;
+    width: 90%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: 40px;
+
+    
+}
+#git h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.git-content {
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Day's Code section complete */
+
+
+#contect{
+    height: 500px;
+    /* border: 2px solid black; */
+
+
+}
+
+#contect h1{
+    text-align: center;
+    
+    
+}
+.contect-content{
+    height: 350px;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-left: 40px;
+    padding: 20px;
+
+}
+.contect-content>div>h2{
+    margin-bottom: 20px;
+}
+
+/* css for td  */
+.raj {
+    height: 40px;
+    margin-right: 40px;
+   
+}
+
+.tdnexta{
+    text-decoration: none;
+    color: black;
+ }
+ /* css for td end */
+
+
+ /* css for bottom */
+#bottom{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #de2323;
+    color: #FFFFFF;
+}
+#bottom img{
+    height: 30px;
+    
+}
+
+/* css for bottom end */
+
+
+
+/* Making responsive */
+/* Add the following at the end of your existing CSS */
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    #navBar {
+        padding: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #navBar h1 {
+        margin-right: 0;
+    }
+
+    #Home {
+        flex-direction: column;
+    }
+
+    #Home-content {
+        margin-top: 100px;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    #image img {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    /* Add responsive styles for other sections as needed */
+}
+
+@media only screen and (max-width: 600px) {
+    #navBar {
+        padding: 10px;
+    }
+
+    #navBar a {
+        margin-right: 20px;
+    }
+
+    #Home-content h1 {
+        font-size: 40px;
+    }
+
+    #About h1 {
+        margin-bottom: -60px;
+    }
+
+    #About-content {
+        flex-direction: column;
+    }
+
+    .About-image,
+    .About-text {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .About-image img {
+        margin: 0 auto;
+    }
+
+    #Skills .Skills-content {
+        margin-left: 20%;
+    }
+
+    /* Add more specific styles for other sections as needed */
+}
