@@ -1,14 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/* Navbar start */
-#navBar{
-    
-    
+
+/* Navbar */
+#navBar {
     padding: 30px;
-    position:sticky;
+    position: sticky;
     top: 0;
     z-index: 100;
     display: flex;
@@ -16,22 +17,18 @@
     align-items: center;
     background-color: #de2323;
 }
-#navBar a{
-    /* margin-left: 40px; */
+#navBar a {
     margin-right: 40px;
     text-decoration: none;
     color: white;
     font-size: larger;
-    
 }
-#navBar h1{
-  margin-right: 500px;
-  color: white;
-    
+#navBar h1 {
+    margin-right: 500px;
+    color: white;
 }
-/* Navbar end */
 
-/* Css of button */
+/* Button */
 .button-24 {
     background: #FF4742;
     border: 1px solid #FF4742;
@@ -41,7 +38,7 @@
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 16px;
@@ -55,367 +52,246 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-  }
-
-.button-24:hover,
+}
+.button-24:hover, .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
 .button-24:active {
-  background-color: initial;
-  background-position: 0 0;
-  color: #FF4742;
+    opacity: .5;
 }
 
-.button-24:active {
-  opacity: .5;
-}
-/* Css of button ends */
-
-
-/* Home section start */
-#Home{
+/* Home Section */
+#Home {
     height: 700px;
     width: 100%;
-    
     background-image: url(/bodyimg.jpg);
     display: flex;
-    
-
 }
 #Home-content {
- margin-top: 300px;
- margin-left: 10%;
- color: white;
-
-    
-
-    
+    margin-top: 300px;
+    margin-left: 10%;
+    color: white;
 }
-#Home-content h1{
+#Home-content h1 {
     font-size: 50px;
-
 }
- #image img{
+#image img {
     height: 400px;
     background-color: aliceblue;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 50%;
     margin-top: 200px;
-    margin-left: 70% ;
-
+    margin-left: 70%;
 }
-#Home-content img{
-     height: 30px;
+#Home-content img {
+    height: 30px;
 }
 
-/* Home section end */
-
-/* About section start */
-
-
-#About{
+/* About Section */
+#About {
     height: 700px;
     width: 100%;
     border: 2px solid rgb(11, 2, 2);
 }
-#About h1{
-   text-align: center;
-   margin-top: 30px;
-   margin-bottom: -90px;
-   
-
+#About h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -90px;
 }
-
-#About-content{
+#About-content {
     height: 90%;
     width: 100%;
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
-#About-content .About-image{
+#About-content .About-image {
     height: 400px;
     width: 30%;
-    /* border: 2px solid red; */
-    
-    
-
-    
 }
-.About-image img{
+.About-image img {
     height: 400px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 5px;
 }
-#About-content .About-text{
+#About-content .About-text {
     height: 60%;
     width: 40%;
-    /* border: 2px solid red; */
-   margin-top: 30px;
-   
-    
+    margin-top: 30px;
 }
-.About-text> h2{
+.About-text> h2 {
     margin-top: 80px;
 }
-.About-text> p{
+.About-text> p {
     margin-top: 10px;
-    
-    
 }
 
-/* About section end */
-/* Skills section start */
-
-#Skills{
+/* Skills Section */
+#Skills {
     height: 400px;
     width: 100%;
     border: 2px solid rgb(11, 2, 2);
     background-color: black;
-   
- 
-
 }
-
-
-   
-
-#Skills .Skills-content{
-   height: 55%;
-   width: 20%;
-   border:  2px solid rgb(11, 2, 2);
-   display: grid;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   margin-left: 40%;
-   background-color: #FFFFFF;
-   padding-bottom: 20px;
-   cursor: pointer;
-   transition: background-color 0.4s ease;
-  
-    
-
+#Skills .Skills-content {
+    height: 55%;
+    width: 20%;
+    border: 2px solid rgb(11, 2, 2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
-#Skills h1{
+#Skills h1 {
     text-align: center;
     margin-top: 30px;
     color: #FFFFFF;
-    
 }
-.line::after{
+.line::after {
     content: "";
     display: block;
     width: 150px;
     border-bottom: 4px solid rgb(243, 41, 41);
     margin-bottom: 10px;
     margin-left: 45%;
-    
 }
-
-
-.Skills-content img{
+.Skills-content img {
     height: 70px;
     margin-bottom: -5px;
-    
 }
-
-
-
-#Skills .Skills-content:hover{
-    background-color:  rgb(12, 54, 88);
+#Skills .Skills-content:hover {
+    background-color: rgb(12, 54, 88);
     color: #FFFFFF;
-    
-
 }
 
-/* Skills section end */
-
-/* Techstack section */
-
-#Techstack{
+/* Techstack Section */
+#Techstack {
     height: 200px;
     width: 100%;
-    
-
-
 }
-#Techstack h1{
+#Techstack h1 {
     text-align: center;
     margin-top: 50px;
 }
-
-#parent{
+#parent {
     padding: 20px;
-   
-    display: flex;justify-content: space-around;
-   
+    display: flex;
+    justify-content: space-around;
 }
-
-.Techstack-Container img{
+.Techstack-Container img {
     height: 100px;
-    
 }
-.Techstack-Container h2{
+.Techstack-Container h2 {
     text-align: center;
-    
 }
-#Tools{
+#Tools {
     height: 400px;
     width: 100%;
-   
-
-
 }
-
-#Tools h1{
+#Tools h1 {
     text-align: center;
     margin-top: 50px;
 }
-
-
-#parent-2{
+#parent-2 {
     padding: 20px;
-    
-    display: flex;justify-content: space-evenly;
-   
+    display: flex;
+    justify-content: space-evenly;
 }
-/* Techstack section end */
 
-/* Project section start */
-#Project{
+/* Project Section */
+#Project {
     height: 850px;
     width: 100%;
     background-color: black;
     color: #FFFFFF;
-    
 }
-#Project h1{
+#Project h1 {
     text-align: center;
-   padding-top: 30px;
-    
-    
+    padding-top: 30px;
 }
-
-.Project-Content{
+.Project-Content {
     height: 90%;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-.Project-Content>div{
+.Project-Content>div {
     height: 600px;
     width: 30%;
-    /* border: 2px solid green; */
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     background-color: rgb(53 51 51);
-   
-    
 }
-.Project-Content>div>img{
-   height: 40%;
-   width: 98%;
-   border-radius: 10px;
-   border: 2px solid #de2323;
-   margin-top: 5px;
-   
-    
+.Project-Content>div>img {
+    height: 40%;
+    width: 98%;
+    border-radius: 10px;
+    border: 2px solid #de2323;
+    margin-top: 5px;
 }
-
-.button{
+.button {
     display: flex;
     justify-content: space-around;
-    
 }
-.button-24 a{
+.button-24 a {
     color: #FFFFFF;
     text-decoration: none;
 }
-
-
-.Project-Content>div:hover{
+.Project-Content>div:hover {
     background-color: #de2323;
 }
 
-/* Project section end */
-/* Day's Code section start */
-
-#git{
+/* Git Section */
+#git {
     height: 700px;
-    /* border: 2px solid black; */
-
 }
-#git img{
+#git img {
     height: 250px;
     width: 90%;
-    /* border: 2px solid red; */
     text-align: center;
     margin-left: 40px;
-
-    
 }
-#git h1{
+#git h1 {
     text-align: center;
     margin-top: 30px;
 }
 .git-content {
     height: 250px;
     width: 100%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-/* Day's Code section complete */
-
-
-#contect{
+/* Contact Section */
+#contect {
     height: 500px;
-    /* border: 2px solid black; */
-
-
 }
-
-#contect h1{
+#contect h1 {
     text-align: center;
-    
-    
 }
-.contect-content{
+.contect-content {
     height: 350px;
     width: 40%;
-    /* border: 2px solid black; */
     margin-left: 40px;
     padding: 20px;
-
 }
-.contect-content>div>h2{
+.contect-content>div>h2 {
     margin-bottom: 20px;
 }
 
-/* css for td  */
-.raj {
-    height: 40px;
-    margin-right: 40px;
-   
-}
-
-.tdnexta{
-    text-decoration: none;
-    color: black;
- }
- /* css for td end */
-
-
- /* css for bottom */
-#bottom{
+/* Bottom */
+#bottom {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -423,83 +299,78 @@
     background-color: #de2323;
     color: #FFFFFF;
 }
-#bottom img{
+#bottom img {
     height: 30px;
-    
 }
 
-/* css for bottom end */
-
-
-
-/* Making responsive */
-/* Add the following at the end of your existing CSS */
-
 /* Media Queries for responsiveness */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
     #navBar {
         padding: 15px;
         justify-content: center;
         text-align: center;
-    }
-
-    #navBar h1 {
-        margin-right: 0;
-    }
-
-    #Home {
         flex-direction: column;
     }
-
-    #Home-content {
-        margin-top: 100px;
-        margin-left: 5%;
+    #navBar h1 {
+        margin-bottom: 10px;
+    }
+    #Home {
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-
+    #Home-content {
+        margin: 100px 5% 0 5%;
+    }
     #image img {
         margin-top: 20px;
         margin-left: 0;
+        width: 80%;
+        height: auto;
     }
-
-    /* Add responsive styles for other sections as needed */
-}
-
-@media only screen and (max-width: 600px) {
-    #navBar {
-        padding: 10px;
-    }
-
-    #navBar a {
-        margin-right: 20px;
-    }
-
-    #Home-content h1 {
-        font-size: 40px;
-    }
-
-    #About h1 {
-        margin-bottom: -60px;
-    }
-
     #About-content {
         flex-direction: column;
-    }
-
-    .About-image,
-    .About-text {
-        width: 100%;
         text-align: center;
+    }
+    .About-image, .About-text {
+        width: 80%;
         margin: 20px 0;
     }
-
-    .About-image img {
-        margin: 0 auto;
-    }
-
     #Skills .Skills-content {
-        margin-left: 20%;
-    }
+        width: 60%;
+        margin-left:
 
-    /* Add more specific styles for other sections as needed */
+ 20%;
+        margin-top: 20px;
+    }
+    #parent, #parent-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Techstack-Container, .Project-Content>div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    #Project {
+        height: auto;
+    }
+    .Project-Content {
+        flex-direction: column;
+        align-items: center;
+    }
+    #git img {
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .git-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contect-content {
+        width: 80%;
+        margin: 20px auto;
+    }
 }
+
+
